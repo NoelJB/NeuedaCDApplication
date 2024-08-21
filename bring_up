@@ -1,0 +1,2 @@
+# Bring up the infrastructure
+docker compose build && docker compose up -d
