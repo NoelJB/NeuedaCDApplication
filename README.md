@@ -15,9 +15,7 @@ To bring up this app, run the `bring_up` script, which will build the front-end,
 ```bash
 ./bring_up
 ```
-## Tear down the solutin
-
-## Run the System
+## Tear down the solution
 To tear down the app, including removing *all* artifacts, run:
 ```bash
 ./bring_down
