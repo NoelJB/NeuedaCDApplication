@@ -24,7 +24,7 @@ COPY src ./src
 COPY --from=ReactBuild /opt/build/out src/main/resources/static/
 
 # Package the application (skip tests to speed up the build process)
-RUN mvn -f /opt/build clean package
+RUN mvn -f /opt/build clean package -Dmaven.test.skip=true
 
 # Set the working directory in the container
 WORKDIR /opt/build/target
